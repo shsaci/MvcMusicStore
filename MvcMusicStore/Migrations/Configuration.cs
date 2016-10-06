@@ -9,7 +9,7 @@ namespace MvcMusicStore.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "MvcMusicStore.Models.MvcMusicStoreContext";
         }
 
